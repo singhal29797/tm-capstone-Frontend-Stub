@@ -1,0 +1,125 @@
+<div class="home-container mt-3 pt-5 pb-5">
+  <div class="pills__container">
+      <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="pills-home-tab" 
+            data-toggle="pill" href="#pills-home" 
+            role="tab" aria-controls="pills-home" 
+            aria-selected="true">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-automotive-tab" 
+            data-toggle="pill" href="#pills-automotive" 
+            role="tab" aria-controls="pills-automotive" 
+            aria-selected="false">Automotive</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-baby-care-tab" 
+            data-toggle="pill" href="#pills-baby-care" 
+            role="tab" aria-controls="pills-baby-care" 
+            aria-selected="false">Baby Care</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-bags-tab" 
+            data-toggle="pill" href="#pills-bags" 
+            role="tab" aria-controls="pills-bags" 
+            aria-selected="false">Bags Wallets and Belts</a>
+          </li>
+       </ul>
+  </div>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <div class="products">
+          <div class="products-choice">
+              <form>
+                  <div class="form-group">
+                      <div class="tabcontainer">
+                          <p class="sort-by">Sort By</p>
+                          <select class="form-control sselect" id="exampleFormControlSelect1">
+                              <option>Default</option>
+                              <option>Price Highest</option>
+                              <option>Price Lowest</option>
+                              <option>Newest</option>
+                          </select>
+                      </div>
+                  </div>
+                </form>
+          </div>
+          <div class="products-container pt-5 pb-5">
+              <div class="card mb-5" style="width: 18rem;">
+                  <img class="card-img-top"
+                   src="https://images-static.nykaa.com/media/catalog/product/tr:w-344,h-344,cm-pad_resize/d/a/da82310bmwha0125bk_1.jpg"
+                   width="250px"
+                   height="250px"
+                   alt="Card image cap">
+                  <div class="card-body">
+                      <a  href="#" class="card-link">Some quick example text to build on the card title and make up the bulk of the card's content.</a>
+                      <p>₹<span>2000</span></p>
+                  </div>
+              </div>
+              <div class="card mb-5" style="width: 18rem;">
+                  <img class="card-img-top" 
+                  src="https://www.labelritukumar.com/media/catalog/product/f/h/fhbgnp-00235a3126725-green-_1_.jpg?width=1000&height=1333&quality=75&fit=bounds"
+                  width="250px"
+                   height="250px"
+                   alt="Card image cap">
+                  <div class="card-body">
+                      <a  href="#" class="card-link">Some quick example text to build on the card title and make up the bulk of the card's content.</a>
+                      <p>₹<span>2000</span></p>
+                  </div>
+              </div>
+              <div class="card mb-5" style="width: 18rem;">
+                  <img class="card-img-top"
+                   src="https://images-static.nykaa.com/media/catalog/product/tr:w-344,h-344,cm-pad_resize/d/a/da82310bmwha0125bk_1.jpg"
+                   width="250px"
+                   height="250px"
+                   alt="Card image cap">
+                  <div class="card-body">
+                      <a  href="#" class="card-link">Some quick example text to build on the card title and make up the bulk of the card's content.</a>
+                      <p>₹<span>2000</span></p>
+                  </div>
+              </div>
+              <div class="card mb-5" style="width: 18rem;">
+                <img class="card-img-top" 
+                src="https://www.labelritukumar.com/media/catalog/product/f/h/fhbgnp-00235a3126725-green-_1_.jpg?width=1000&height=1333&quality=75&fit=bounds"
+                width="250px"
+                 height="250px"
+                 alt="Card image cap">
+                <div class="card-body">
+                    <a  href="#" class="card-link">Some quick example text to build on the card title and make up the bulk of the card's content.</a>
+                    <p>₹<span>2000</span></p>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-automotive" role="tabpanel" aria-labelledby="pills-automotive-tab">
+      <app-automotive></app-automotive>
+    </div>
+    <div class="tab-pane fade" id="pills-baby-care" role="tabpanel" aria-labelledby="pills-baby-care-tab">
+      <app-baby-care></app-baby-care>
+    </div>
+    <div class="tab-pane fade" id="pills-bags" role="tabpanel" aria-labelledby="pills-bags-tab">
+      <app-bwb></app-bwb>
+    </div>
+  </div>
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center d-flex mb-5">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+          <span class="sr-only">Next</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>

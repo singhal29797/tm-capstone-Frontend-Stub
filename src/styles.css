@@ -1,0 +1,81 @@
+
+
+.form-inline .form-control{
+    width: 260px;
+}
+
+.modal-content{
+    border: 1px solid #d2ceda;
+    border-radius: 8px;
+}
+
+.backgroundBlue{
+    background-color: #007bff;
+}
+.spacer{
+    flex: 1 1 0 ;
+}
+.dropdown-menu{
+    min-width: 6rem;
+}
+.dropdown-item{
+    padding: .25rem 1rem;
+}
+.search-button{
+    right: 1.2rem;
+}
+.search-button button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.search-button button i{
+    color: #007bff;
+}
+
+.button{
+    text-align: right;
+}
+
+.tabcontainer{
+    display: flex;
+    align-items: center;
+}
+.sort-by{
+    width: 8%;
+    margin: 0;
+}
+.sselect{
+    width: 15%;
+}
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    width: 100%;
+    overflow-x: hidden;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container p{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
